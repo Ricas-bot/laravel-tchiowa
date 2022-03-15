@@ -14,4 +14,8 @@
 </section>
   <!-- End of Section -->
 
+<!-- ===== About section ===== -->
+
+<!-- End of Section -->
+
 @endsection
