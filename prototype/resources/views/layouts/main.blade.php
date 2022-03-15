@@ -89,9 +89,9 @@
       <div class="d-flex justify-content-between py-4 my-4 border-top">
         <p>&copy; 2022 Tchiowa, Corp. All rights reserved.</p>
         <ul class="list-unstyled d-flex">
-          <li class="ms-3"><a class="link-dark" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#twitter"/></svg></a></li>
-          <li class="ms-3"><a class="link-dark" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#instagram"/></svg></a></li>
-          <li class="ms-3"><a class="link-dark" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#facebook"/></svg></a></li>
+          <li class="ms-3"><a class="link-dark" href="#"><ion-icon name="logo-twitter"></ion-icon></svg></a></li>
+          <li class="ms-3"><a class="link-dark" href="#"><ion-icon name="logo-instagram"></ion-icon></svg></a></li>
+          <li class="ms-3"><a class="link-dark" href="#"><ion-icon name="logo-facebook"></ion-icon></svg></a></li>
         </ul>
       </div>
     </footer>
@@ -100,5 +100,9 @@
     
   <!-- Bootstrap JS -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+  <!-- Ion Icons -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 </body>
 </html>
