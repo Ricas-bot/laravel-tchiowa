@@ -3,13 +3,9 @@
 
 <!-- ===== Hero section ===== -->
 <section id="home" class="d-flex align-items-center">
-    <div class="container" data-aos="zoom-in">
-        <div class="row">
-            <div class="col-lg-9 text-center text-lg-start">
-                <h1>Bem-vindo ao site da Tchiowa Corp</h1>
-                <h2> Temos diversificados serviços que irão melhorar a sua visibilidade no mercado, aumentar o seu conhecimento e muito mais.</h2>
-            </div>
-        </div>
+    <div class="container position-relative" data-aos="zoom-in" data-aos-delay="100">
+        <h1>Bem-vindo ao site da Tchiowa Corp</h1>
+        <h5> Temos diversificados serviços que irão melhorar a sua visibilidade no mercado, aumentar o seu conhecimento e muito mais.</h5>
     </div>
 </section>
   <!-- End of Section -->
@@ -20,7 +16,7 @@
       <div class="container col-xxl-8 px-4 py-5">
         <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
           <div class="col-10 col-sm-8 col-lg-6">
-            <img src="bootstrap-themes.png" class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" width="700" height="500" loading="lazy">
+            <img src="/img/IMG-20201228-WA0013.jpg" class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" width="700" height="500" loading="lazy">
           </div>
           <div class="col-lg-6">
             <h1 class="display-5 fw-bold lh-1 mb-3">Sobre nós</h1>
@@ -32,8 +28,8 @@
               </button>
 
               <!-- Modal -->
-              <div class="modal-dialog modal-dialog-scrollable" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
-                <div class="modal-dialog">
+              <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-scrollable">
                   <div class="modal-content">
                     <div class="modal-header">
                       <h5 class="modal-title" id="staticBackdropLabel">Sobre nós</h5>
