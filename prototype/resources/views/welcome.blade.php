@@ -18,31 +18,21 @@
 <section id="about" class="about">
       <div class="container" data-aos="fade-up">
 
-        <div class="section-title">
-          <h2>About Us</h2>
+      <div class="container col-xxl-8 px-4 py-5">
+    <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+      <div class="col-10 col-sm-8 col-lg-6">
+        <img src="bootstrap-themes.png" class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" width="700" height="500" loading="lazy">
+      </div>
+      <div class="col-lg-6">
+        <h1 class="display-5 fw-bold lh-1 mb-3">Responsive left-aligned hero with image</h1>
+        <p class="lead">Quickly design and customize responsive mobile-first sites with Bootstrap, the world’s most popular front-end open source toolkit, featuring Sass variables and mixins, responsive grid system, extensive prebuilt components, and powerful JavaScript plugins.</p>
+        <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+          <button type="button" class="btn btn-primary btn-lg px-4 me-md-2">Primary</button>
+          <button type="button" class="btn btn-outline-secondary btn-lg px-4">Default</button>
         </div>
-
-        <div class="row content">
-          <div class="col-lg-6">
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-              magna aliqua.
-            </p>
-            <ul>
-              <li><ion-icon name="checkmark-done-outline"></ion-icon> Ullamco laboris nisi ut aliquip ex ea commodo consequat</li>
-              <li><ion-icon name="checkmark-done-outline"></ion-icon> Duis aute irure dolor in reprehenderit in voluptate velit</li>
-              <li><ion-icon name="checkmark-done-outline"></ion-icon> Ullamco laboris nisi ut aliquip ex ea commodo consequat</li>
-            </ul>
-          </div>
-          <div class="col-lg-6 pt-4 pt-lg-0">
-            <p>
-              Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
-              velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-              culpa qui officia deserunt mollit anim id est laborum.
-            </p>
-            <a href="#" class="btn primary-btn">Learn More</a>
-          </div>
-        </div>
+      </div>
+    </div>
+  </div>
 
       </div>
     </section>
