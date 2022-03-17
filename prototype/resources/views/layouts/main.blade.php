@@ -20,7 +20,7 @@
             type="button"
             class="btn btn-danger btn-floating btn-lg"
             id="btn-back-to-top"
-            style="border-radius:50px"
+            style="border-radius:25px; padding:10px; font-size:22px"
             >
             <ion-icon name="arrow-up-circle-sharp"></ion-icon>
     </button>
