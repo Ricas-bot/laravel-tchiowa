@@ -23,7 +23,7 @@
             <p class="lead">Somos a Tchiowa Corp, uma empresa composta por uma equipa de profissionais formados nas áreas de tecnologia de informação, Telecomunicação com mais de 3 anos de experiências profissionais atuando no sector público e privado.</p>
             <div class="d-grid gap-2 d-md-flex justify-content-md-start">
               <!-- Button trigger modal -->
-              <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+              <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop" id="btn1">
                 Mais detalhes
               </button>
 
@@ -41,12 +41,12 @@
                     <p>É nossa missão entender o negócio dos nossos clientes, prestar consultoria, de modo a alcançar soluções inovadoras com foco na melhoria e qualidade contínua.</p>
                     </div>
                     <div class="modal-footer">
-                      <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+                      <button type="button" class="btn btn-secondary" data-bs-dismiss="modal" style="border-radius:25px">Fechar</button>
                     </div>
                   </div>
                 </div>
               </div>
-              <a href="#service" class="scrollto"><button type="button" class="btn btn-outline-secondary btn-lg px-4">Serviços</button></a>
+              <a href="#service" class="scrollto"><button type="button" class="btn btn-outline-secondary btn-lg px-4" id="btn2">Nossos serviços</button></a>
             </div>
           </div>
         </div>
