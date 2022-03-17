@@ -1,0 +1,63 @@
+/*General*/
+body {
+  font-family: "Open Sans", sans-serif;
+  color: #444444;
+}
+
+a {
+  color: #D1000A;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #cf1822;
+  text-decoration: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Jost", sans-serif;
+}
+
+/*Back-to top*/
+#btn-back-to-top {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  display: none;
+}
+
+/*Navbar*/
+#barra li > a{
+  color:#000;
+}
+/* Sections General */
+section {
+    padding: 60px 0;
+    overflow: hidden;
+  }
+  
+  
+/* Home */
+#home {
+    background: linear-gradient(rgba(89, 2, 2, 0.7), rgba(83, 2, 2, 0.7)), url("/img/IMG-20201228-WA0013.jpg") fixed center center;
+    background-size: cover;
+    padding: 120px 0;
+  }
+  #home h1 {
+    color: #fff;
+    font-size: 38px;
+    font-weight: 700;
+  }
+  #home h5 {
+    color: #fff;
+  }
+  @media (max-width: 1024px) {
+    #home {
+      background-attachment: scroll;
+    }
+  }
+
+/*About*/
+
+
+/*Footer*/

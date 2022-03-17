@@ -15,35 +15,32 @@
 
 </head>
 <body>
+  
+    <button
+            type="button"
+            class="btn btn-danger btn-floating btn-lg"
+            id="btn-back-to-top"
+            style="border-radius:50px"
+            >
+            <ion-icon name="arrow-up-circle-sharp"></ion-icon>
+    </button>
+
     <!-- ===== Navbar ===== -->
-  <nav class="navbar fixed-top navbar-expand-lg navbar-light">
-    <div class="container-fluid">
-      <a class="navbar-brand logo"  href="#"><img src="/img/Tchiowacorp.png" alt="" width="30" height="24"></a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-          <li class="nav-item">
-            <a class="nav-link active scrollto" aria-current="page" href="#home">Home</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link scrollto" href="#about">Sobre</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link scrollto" href="#service">Serviços</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link scrollto" href="#portfolio">Portfólio</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link scrollto" aria-current="page" href="#contact">Contacto</a>
-          </li>
-        </ul>
-      </div>
-    </div>
-  </nav>
-<!-- End of navbar-->
+    <div class="container">
+    <header class="d-flex flex-wrap align-items-center justify-content-center justify-content-md-between py-3 mb-4 border-bottom">
+      <a href="/" class="d-flex align-items-center col-md-3 mb-2 mb-md-0 text-dark text-decoration-none">
+      <img src="/img/Tchiowacorp.png" alt="" width="45" height="32" class="img-fluid">
+      </a>
+
+      <ul class="nav col-12 col-md-auto mb-2 justify-content-center mb-md-0" id="barra">
+        <li><a href="#" class="nav-link px-2 link-secondary scrollto">Home</a></li>
+        <li><a href="#about" class="nav-link px-2 link-dark scrollto">Sobre</a></li>
+        <li><a href="#service" class="nav-link px-2 link-dark scrollto">Serviços</a></li>
+        <li><a href="#portfolio" class="nav-link px-2 link-dark scrollto">Portfólio</a></li>
+        <li><a href="#contact" class="nav-link px-2 link-dark scrollto">Contacto</a></li>
+      </ul>
+    </header>
+  </div><!-- End Header -->
 
   @yield ('content')
 
@@ -100,12 +97,16 @@
     </footer>
   </div>
   <!-- End of footer-->
-    
+
   <!-- Bootstrap JS -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 
   <!-- Ion Icons -->
   <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
 <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+<!-- Back-to-top JS -->
+<script src="/js/back-to-top.js"></script>
+
 </body>
 </html>
