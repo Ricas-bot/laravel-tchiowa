@@ -195,95 +195,70 @@ fornecimento de material CCTV, RPA, fornecimento e montagem de sistemas PABX e V
         <div class="col-12">
             <div class="section-title text-center mb-4 pb-2">
                 <h4 class="display-5 fw-bold lh-1 mb-3">Fale connosco</h4>
-                <p class="lead">Envie nos .</p>
+                <p class="lead">Diz nos em que podemos ajudar para aumentar a sua visibilidade e/ou automatizar os seus serviços, envie-nos o seu feedback durante a experiência na página.</p>
             </div>
         </div><!--end col-->
     </div><!--end row-->
 
     <div class="row">
 
-        <!--Grid column-->
-        <div class="col-md-9 mb-md-0 mb-5">
-            <form id="contact-form" name="contact-form" action="mail.php" method="POST">
-                @csrf
-                <!--Grid row-->
-                <div class="row">
+    <div class="col-lg-5 d-flex align-items-stretch">
+            <div class="info">
+              <div class="address">
+                <i class="bi bi-geo-alt"></i>
+                <h4>Location:</h4>
+                <p>Rua 32 do Benfica, Luanda, Casa nº. 23</p>
+              </div>
 
-                    <!--Grid column-->
-                    <div class="col-md-6">
-                        <div class="md-form mb-0">
-                            <input type="text" id="name" name="name" class="form-control">
-                            <label for="name" class="">Nome</label>
-                        </div>
-                    </div>
-                    <!--Grid column-->
+              <div class="email">
+                <i class="bi bi-envelope"></i>
+                <h4>Email:</h4>
+                <p>geral@tchiowacorpit.co.ao</p>
+              </div>
 
-                    <!--Grid column-->
-                    <div class="col-md-6">
-                        <div class="md-form mb-0">
-                            <input type="text" id="email" name="email" class="form-control">
-                            <label for="email" class="">Email</label>
-                        </div>
-                    </div>
-                    <!--Grid column-->
+              <div class="phone">
+                <i class="bi bi-phone"></i>
+                <h4>Ligue:</h4>
+                <p>+244937931408</p>
+              </div>
 
-                </div>
-                <!--Grid row-->
-
-                <!--Grid row-->
-                <div class="row">
-                    <div class="col-md-12">
-                        <div class="md-form mb-0">
-                            <input type="text" id="subject" name="subject" class="form-control">
-                            <label for="subject" class="">Assunto</label>
-                        </div>
-                    </div>
-                </div>
-                <!--Grid row-->
-
-                <!--Grid row-->
-                <div class="row">
-
-                    <!--Grid column-->
-                    <div class="col-md-12">
-
-                        <div class="md-form">
-                            <textarea type="text" id="message" name="message" rows="2" class="form-control md-textarea"></textarea>
-                            <label for="message">Mensagem</label>
-                        </div>
-
-                    </div>
-                </div>
-                <!--Grid row-->
-
-            </form>
-
-            <div class="text-center text-md-left">
-                <a class="btn btn-primary" onclick="document.getElementById('contact-form').submit();">Send</a>
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3941.226467266855!2d13.178235314786127!3d-8.951267993574804!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x3c8546a889ec2ac6!2zOMKwNTcnMDQuNiJTIDEzwrAxMCc0OS41IkU!5e0!3m2!1spt-PT!2sao!4v1647600343189!5m2!1spt-PT!2sao" frameborder="0" style="border:0; width: 100%; height: 290px;" allowfullscreen></iframe>
             </div>
-            <div class="status"></div>
+
+          </div>
+
+          <div class="col-lg-7 mt-5 mt-lg-0 d-flex align-items-stretch">
+            <form action="forms/contact.php" method="post" role="form" class="php-email-form">
+              <div class="row">
+                <div class="form-group col-md-6">
+                  <label for="name">Seu Nome</label>
+                  <input type="text" name="name" class="form-control" id="name" required>
+                </div>
+                <div class="form-group col-md-6">
+                  <label for="name">Seu Email</label>
+                  <input type="email" class="form-control" name="email" id="email" required>
+                </div>
+              </div>
+              <div class="form-group">
+                <label for="name">Assunto</label>
+                <input type="text" class="form-control" name="subject" id="subject" required>
+              </div>
+              <div class="form-group">
+                <label for="name">Mensagem</label>
+                <textarea class="form-control" name="message" rows="10" required></textarea>
+              </div>
+              <div class="my-3">
+                <div class="loading">Loading</div>
+                <div class="error-message"></div>
+                <div class="sent-message">Sua mensagem foi enviada. Obrigado!</div>
+              </div>
+              <div class="text-center"><button type="submit">Enviar Mensagem</button></div>
+            </form>
+          </div>
+
         </div>
-        <!--Grid column-->
 
-        <!--Grid column-->
-        <div class="col-md-3 text-center">
-            <ul class="list-unstyled mb-0">
-                <li><i class="fas fa-map-marker-alt fa-2x"></i>
-                    <p>San Francisco, CA 94126, AO</p>
-                </li>
-
-                <li><i class="fas fa-phone mt-4 fa-2x"></i>
-                    <p>+ 01 234 567 89</p>
-                </li>
-
-                <li><i class="fas fa-envelope mt-4 fa-2x"></i>
-                    <p>geral@tchiowacorp.com</p>
-                </li>
-            </ul>
-        </div>
-        <!--Grid column-->
-
-    </div>
+      </div>
 
     </section>
 <!-- End of Section -->
