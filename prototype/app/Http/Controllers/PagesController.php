@@ -13,11 +13,6 @@ class PagesController extends Controller
         return view('welcome');
     }
 
-    public function showContactForm(){
-
-        return view('contact');
-    }
-
     public function submitContactForm(Request $request){
 
         $data = [
