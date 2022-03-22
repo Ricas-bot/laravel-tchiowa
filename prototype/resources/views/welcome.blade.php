@@ -200,6 +200,10 @@ fornecimento de material CCTV, RPA, fornecimento e montagem de sistemas PABX e V
         </div><!--end col-->
     </div><!--end row-->
 
+    @if(session('msg'))
+      <p class="msg">{{ session('msg') }}</p>
+    @endif
+
     <div class="row">
 
     <div class="col-lg-5 d-flex align-items-stretch">
@@ -228,7 +232,7 @@ fornecimento de material CCTV, RPA, fornecimento e montagem de sistemas PABX e V
           </div>
 
           <div class="col-lg-7 mt-5 mt-lg-0 d-flex align-items-stretch">
-            <form action="forms/contact.php" method="post" role="form" class="php-email-form">
+            <form action="/submit" method="POST" role="form" class="php-email-form">
                 @csrf
               <div class="row">
                 <div class="form-group col-md-6">
@@ -236,22 +240,17 @@ fornecimento de material CCTV, RPA, fornecimento e montagem de sistemas PABX e V
                   <input type="text" name="name" class="form-control" id="name" required>
                 </div>
                 <div class="form-group col-md-6">
-                  <label for="name">Seu Email</label>
+                  <label for="email">Seu Email</label>
                   <input type="email" class="form-control" name="email" id="email" required>
                 </div>
               </div>
               <div class="form-group">
-                <label for="name">Assunto</label>
+                <label for="subject">Assunto</label>
                 <input type="text" class="form-control" name="subject" id="subject" required>
               </div>
               <div class="form-group">
-                <label for="name">Mensagem</label>
+                <label for="message">Mensagem</label>
                 <textarea class="form-control" name="message" rows="10" required></textarea>
-              </div>
-              <div class="my-3">
-                <div class="loading">Loading</div>
-                <div class="error-message"></div>
-                <div class="sent-message">Sua mensagem foi enviada. Obrigado!</div>
               </div>
               <div class="text-center"><button type="submit">Enviar Mensagem</button></div>
             </form>
